@@ -15,7 +15,8 @@ Implemented by using the DTO Design Pattern.
 1. Clone the repository.
 2. Get into the directory.
 3. Create a virtual environment.
-4. Install the dependencies on the requirements.txt file.
+4. Activate virtual environment.
+5. Install the dependencies on the requirements.txt file.
 
 # Testing
 
