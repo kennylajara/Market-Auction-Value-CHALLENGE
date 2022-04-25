@@ -1,6 +1,8 @@
+from dataclasses import dataclass
 from typing import Union
 
 
+@dataclass
 class EquipmentBaseDTO:
     """
     Base class for Equipment DTOs.
@@ -14,6 +16,7 @@ class EquipmentBaseDTO:
         return self._equipment_id
 
 
+@dataclass
 class EquipmentYearValueDTO(EquipmentBaseDTO):
     """
     Class for storing calculated values of a equipment.

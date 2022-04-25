@@ -1,9 +1,10 @@
 from __future__ import annotations
-from typing import Optional
+from dataclasses import dataclass
 
 from utils import Api
 
 
+@dataclass
 class Year:
     """
     Class for storing the year of a equipment's schedule.
@@ -36,6 +37,7 @@ class Year:
         return self._year
 
 
+@dataclass
 class Schedule:
     """
     Class for storing the schedule of a equipment.
@@ -73,6 +75,7 @@ class Schedule:
         return self._default_auction_ratio
 
 
+@dataclass
 class SaleDetails:
     """
     Class for storing the sale details of a equipment.
@@ -107,6 +110,7 @@ class SaleDetails:
         return self._auction_sale_count
 
 
+@dataclass
 class Classification:
     """
     Class for storing the classification of a equipment.
@@ -145,6 +149,7 @@ class Classification:
         return self._model
 
 
+@dataclass
 class Equipment:
     """
     Business model for a equipment.
